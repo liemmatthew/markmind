@@ -119,7 +119,7 @@ body {
 
     .container-1-left h1 {
         font-size: 55px;
-        letter-spacing: 4px;
+        letter-spacing: 4px !important;
     }
 
     .container-1-left p {

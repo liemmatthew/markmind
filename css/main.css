@@ -105,7 +105,7 @@ body {
     position: absolute;
     left: 117.71px;
     width: 140px;
-    letter-spacing: 4px;
+    letter-spacing: 4px !important;
 }
 
 #footer-top-right {
@@ -317,7 +317,7 @@ body {
         position: absolute;
         left: 31.78px;
         width: 110px;
-        letter-spacing: 1px;
+        letter-spacing: 1px !important;
     }
 
     #footer-top-right {
@@ -384,14 +384,14 @@ body {
 
     .blur-nav {
         position: fixed;
-        width: 70vw;
+        width: 273px;
         height: 100%;
         right: -70vw;
         z-index: 5;
 
         background: rgba(217, 217, 217, 0.3);
         box-shadow: -5px 3px 15px rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px) !important;
 
         animation-timing-function: ease-in-out;
         animation-duration: 0.5s;

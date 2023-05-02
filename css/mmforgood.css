@@ -16,7 +16,7 @@ body {
 
 .container-1 h1 {
   font-size: 46px;
-  letter-spacing: 4px;
+  letter-spacing: 2px !important;
 }
 
 .container-1 p {
@@ -41,7 +41,7 @@ body {
   position: absolute;
   left: 122.29px;
   width: 400px;
-  letter-spacing: 4px;
+  letter-spacing: 2px !important;
 }
 
 .container-2 p {
@@ -316,7 +316,7 @@ body {
     position: initial;
     font-size: 26px;
     width: 205px;
-    letter-spacing: 2px;
+    letter-spacing: 2px !important;
   }
 
   .container-2 p {
@@ -333,7 +333,7 @@ body {
   }
 
   .container-3 {
-    margin: 246px 0 0;
+    margin: 130px 0 0;
     width: 100%;
     color: white;
     left: 0;

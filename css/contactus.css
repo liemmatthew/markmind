@@ -250,7 +250,7 @@ element.style {
     }
 
     .container-1-header h1 {
-        letter-spacing: 2px;
+        letter-spacing: 2px !important;
     }
 
     .input-group>.form-control {
