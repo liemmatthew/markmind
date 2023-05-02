@@ -1,0 +1,345 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-1 {
+  width: 100%;
+}
+
+.container-1-content-left {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 344px;
+  color: white;
+}
+
+.container-1 h1 {
+  font-size: 46px;
+  letter-spacing: 4px;
+}
+
+.container-1 p {
+  font-size: 18px;
+}
+
+.container-1 img {
+  z-index: -1;
+  object-fit: cover;
+
+}
+
+.container-1-image {
+  position: relative;
+  min-width: 100%;
+  min-height: 826px;
+  top: 0;
+}
+
+.container-2 h1 {
+  font-size: 46px;
+  position: absolute;
+  left: 122.29px;
+  width: 400px;
+  letter-spacing: 4px;
+}
+
+.container-2 p {
+  font-size: 18px;
+}
+
+.container-2-content {
+  color: white;
+}
+
+.container-3 {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 830px;
+  position: relative;
+  left: calc(50% - 830px/2);
+  color: white;
+}
+
+.container-3 h1 {
+  width: 837px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45.7143px;
+  line-height: 122.5%;
+}
+
+.container-3 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.2857px;
+  line-height: 122.5%;
+
+  text-align: center;
+}
+
+.container-3 button {
+  padding: 10px 37px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 52.5714px;
+  border: 0;
+  font-weight: 400;
+  font-size: 20.5714px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+
+  /* Add your desktop styles here */
+  .container-1-content {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    left: 15%;
+    align-items: center;
+  }
+
+  .container-1 {
+    min-height: 826px;
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .container-1 h1 {
+    margin: 1em 0
+  }
+
+  .container-1 p {
+    margin-bottom: 1em
+  }
+
+  .container-1 img {
+    width: 70%;
+  }
+
+  #mmforgoodimg1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 617px;
+    width: 1008px;
+    z-index: -1;
+  }
+
+  .container-1-image {
+    position: relative;
+    min-width: 100%;
+    min-height: 826px;
+    top: 0;
+    z-index: -1;
+  }
+
+  #mmforgoodbg2 {
+    mix-blend-mode: luminosity;
+    width: 100%;
+    height: 529px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  #circle-pink {
+    position: absolute;
+    top: -317px;
+    left: -1118px;
+    background: #f385b6;
+    opacity: 88%;
+    z-index: -2;
+    filter: blur(234.5px);
+    transform: rotate(-165deg);
+  }
+
+  .container-2 {
+    position: relative;
+    display: flex;
+    height: 529px;
+  }
+
+  .container-2 h1 {
+    left: 16vw;
+  }
+
+  .container-2-content {
+    color: white;
+    min-width: 100%;
+    position: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .container-2-content-left {
+    width: 347px;
+  }
+
+  .container-2-content-right {
+    width: 347px;
+    position: absolute;
+    right: 16vw;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #circle-1 {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 84px;
+    top: 144px;
+    opacity: 20%;
+  }
+
+  #circle-2 {
+    position: absolute;
+    right: 0;
+    bottom: -207px;
+    opacity: 50%;
+    object-fit: cover;
+    object-position: 1px -8px;
+    width: 303px;
+    height: 424px;
+  }
+
+  .container-3 {
+    min-height: 444px;
+  }
+
+  #wave-svg {
+    top: -900px;
+  }
+
+  #bgfooter {
+    background: radial-gradient(220.13% 152.48% at 50% -4.48%, rgba(46, 46, 123, 0) 35.85%, #FFFFFF 50.17%);
+    height: 2470px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* For screens narrower than 768px (mobile) */
+@media (max-width: 992px) {
+  .background {
+    height: 1600px;
+  }
+
+  .container-1 {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .container-1 img {
+    width: 90%
+  }
+
+  .container-1-content {
+    margin: 45px 0;
+  }
+
+  #mmforgoodimg1 {
+    width: 100%;
+  }
+
+  .container-1-image {
+    position: relative;
+    min-width: 100%;
+    min-height: 0;
+    top: 0;
+  }
+
+  #mmforgoodbg2 {
+    width: 100%;
+    object-fit: cover;
+    height: 236px;
+    object-position: 0 0;
+    mix-blend-mode: luminosity;
+  }
+
+  #circle-1 {
+    position: absolute;
+    width: 20%;
+    left: 15px;
+    top: -42px;
+    opacity: 20%;
+  }
+
+  #circle-2 {
+    width: 122px;
+    height: 149.86px;
+    right: 0;
+    top: 91.75px;
+    position: absolute;
+    object-fit: cover;
+    object-position: 1px -8px;
+  }
+
+  .container-1-content-left {
+    width: 339.44px;
+    height: 170.44px;
+  }
+
+  .container-1-content-left h1 {
+    font-weight: 700;
+    font-size: 24.1944px;
+    line-height: 26px;
+  }
+
+  .container-1-content-left p {
+    font-weight: 400;
+    font-size: 12.6389px;
+    line-height: 19px;
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-2 h1 {
+    position: initial;
+    font-size: 26px;
+    width: 205px;
+    letter-spacing: 2px;
+  }
+
+  .container-2 p {
+    font-size: 13px;
+  }
+
+  .container-2-content {
+    margin: 35px 0;
+    width: 340px;
+  }
+
+  .container-2-content-right {
+    margin-right: 20px;
+  }
+
+  .container-3 {
+    margin: 246px 0 0;
+    width: 100%;
+    color: white;
+    left: 0;
+  }
+
+  #bgfooter {
+    left: -20%
+  }
+}

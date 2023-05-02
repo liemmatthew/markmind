@@ -1,0 +1,239 @@
+body {
+    background-color: #2E2E7B;
+
+}
+
+.background {
+    width: 100%;
+    /* height: 1920px; */
+    /* background-color: #2E2E7B; */
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+}
+
+#grain img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+/* #grain img {
+    width: 100%;
+} */
+
+#bgfooter {
+    z-index: -2;
+}
+
+@media (min-width: 992px) {
+
+    #bgfooter {
+        position: absolute;
+        width: 139%;
+        height: 3335px;
+        left: -19%;
+        bottom: 0;
+        background: radial-gradient(173.13% 109.48% at 49.87% -9.48%, rgba(46, 46, 123, 0) 33.85%, #FFFFFF 54.17%);
+        /* filter: blur(149.5px); */
+    }
+
+    /* main-bg */
+    .main-bg#elipse1 {
+        position: absolute;
+        width: 667px;
+        height: 667px;
+        right: -195px;
+        top: -171px;
+        border-radius: 50%;
+
+        background: #CD62BC;
+        filter: blur(259.5px);
+    }
+
+    .main-bg#elipse2 {
+        position: absolute;
+        width: 547px;
+        height: 547px;
+        left: -499px;
+        top: 780px;
+        border-radius: 50%;
+
+        background: #FCD9F6;
+        filter: blur(259.5px);
+    }
+
+    .main-bg#elipse3 {
+        position: absolute;
+        width: 547px;
+        height: 547px;
+        right: -371px;
+        top: 1641px;
+        border-radius: 50%;
+
+        background: #FCD9F6;
+        filter: blur(259.5px);
+    }
+
+    .main-bg#elipse4 {
+        position: absolute;
+        width: 1078.89px;
+        height: 1078.89px;
+        left: calc(50% - 1078.89px/2 - 3.06px);
+        top: 1493.88px;
+        z-index: -2;
+        border-radius: 50%;
+
+        background: #FE85D5;
+        filter: blur(259.5px);
+        transform: rotate(-89.71deg);
+    }
+
+    /* mmforgood-bg */
+    .mmforgood-bg {
+        height: 1900px;
+    }
+
+    .mmforgood-bg#elipse5 {
+        position: absolute;
+        width: 995px;
+        height: 995px;
+        left: -417px;
+        top: 620px;
+        border-radius: 50%;
+        background: #F385B6;
+        filter: blur(225px);
+        min-width: none;
+    }
+
+    /* works-bg */
+    .works-bg {
+        height: 5086px;
+    }
+
+    .works-bg#elipse1 {
+        position: absolute;
+        width: 994.76px;
+        height: 994.76px;
+        right: -570.7px;
+        top: 1052.88px;
+
+        background: #F385B6;
+        filter: blur(296.571px);
+    }
+
+    .works-bg#elipse5 {
+        position: absolute;
+        width: 911.83px;
+        height: 911.83px;
+        left: -274.4px;
+        top: 1908.2px;
+
+        background: #F385B6;
+        filter: blur(296.571px);
+        transform: rotate(-165deg);
+    }
+
+    .works-bg#elipse6 {
+        position: absolute;
+        width: 504px;
+        height: 504px;
+        right: -252px;
+        top: 2010px;
+
+        background: #E2E2E2;
+        filter: blur(167.5px);
+    }
+
+    .works-bg#bgfooter {
+        height: 2073px;
+    }
+
+}
+
+/* For screens narrower than 768px (mobile) */
+@media (max-width: 992px) {
+
+    /* .background {
+        height: 600vw;
+        max-height: 2500px;
+    } */
+
+    #elipse1 {
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        right: -104px;
+        top: 176px;
+
+        background: #D362A9;
+        filter: blur(115px);
+    }
+
+    #elipse2 {
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        left: -97px;
+        top: 621px;
+
+        background: #D362A9;
+        filter: blur(115px);
+    }
+
+    #elipse3 {
+        position: absolute;
+        width: 425px;
+        height: 271px;
+        right: -66px;
+        top: 331px;
+        z-index: 1;
+
+        background: #2E2E7B;
+        filter: blur(60px);
+    }
+
+    #elipse4 {
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        right: -178px;
+        top: 602px;
+
+        background: rgba(122, 122, 193, 0.8);
+        filter: blur(115px);
+    }
+
+    #elipse5 {
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        right: -123px;
+        top: 1033px;
+
+        background: #D362A9;
+        filter: blur(115px);
+    }
+
+    #elipse6 {
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        left: -158px;
+        top: 1112px;
+
+        background: #7A7AC1;
+        filter: blur(115px);
+    }
+
+    #bgfooter {
+        position: absolute;
+        width: 140vw;
+        left: -15%;
+        height: 878px;
+        bottom: 0;
+        background: radial-gradient(173.13% 109.48% at 49.87% -9.48%, rgba(48, 42, 142, 0) 43.75%, #E0E0E0 60.42%, #FFF 67.71%);
+        /* filter: blur(20px); */
+    }
+}

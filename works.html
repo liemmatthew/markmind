@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Markmind</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/works.css">
+</head>
+
+<body>
+    <button class="navbar-toggler mobile" type="button" aria-expanded="false" id="navbar-toggler" id="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-toggler-icon bg-navbar-icon mobile"></span>
+    <div class="blur-nav mobile" id="blurNavbar">
+        <div class="blur-nav-items">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./works.html"><u>Works</u></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./mmforgood.html">#MMForGood</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactus.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-navbar pt-3  header">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="assets/title.svg" alt="Markmind" /></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./works.html"><u>Works</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mmforgood.html">#MMForGood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="background works-bg">
+        <div class="works-bg" id="elipse1"></div>
+        <div class="works-bg" id="elipse2"></div>
+        <div class="works-bg" id="elipse3"></div>
+        <div class="works-bg" id="elipse4"></div>
+        <div class="works-bg" id="elipse5"></div>
+        <div class="works-bg" id="elipse6"></div>
+        <div class="main-bg" id="grain"><img src="./assets/grain-bg.png" alt=""></div>
+
+    </div>
+    <div class="blnkspace"></div>
+    <div class="container-1">
+        <img id="mmlogo1" src="./assets/mm-logo.svg" alt="">
+        <img id="mmlogo2" src="./assets/mm-logo.svg" alt="">
+        <div class="container-1-content">
+            <div class="container-1-left">
+                <h1 class="w-700">Works</h1>
+                <p class="space-p poppins">Every brand has a story.</p>
+                <p class="poppins">Our passion is having everyone listen to yours.</p>
+            </div>
+            <div class="container-1-image">
+                <img id="works-phone" src="./assets/works_1.png" alt="">
+                <div id="works-circle-1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-2-detail">
+        <img src="./assets/workcontent_1.1.png" alt="" onclick="changeImage()" id="myImage1">
+        <img id="closeBtn" src="./assets/close-btn.svg" onclick="closeImage()" alt="">
+        <img id="v-next-btn" src="./assets/works-next-btn.svg" onclick="changeImage()" alt="">
+    </div>
+    <div class=" container-2">
+        <div class="work-content odd">
+            <img src="./assets/workcontent_1.1.png" alt="" onclick="openImage(0)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Digital Marketing</h1>
+                    <p class="space-p">We promote your product or service through various digital channels and
+                        platforms.
+                    </p>
+                    <p>Our digital marketing service includes search engine marketing (SEM), social media campaigns,
+                        email
+                        marketing, digital advertising & content marketing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="work-content even">
+            <img src="./assets/workcontent_2.1.png" alt="" onclick="openImage(1)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Branding Activation & Graphic Design</h1>
+                    <p class="space-p">We get your brand out there - making
+                        it known to the public and reach
+                        its targeted audience.
+                    </p>
+                    <p>Our branding activation service includes experimental activation, promotions, social media
+                        activation, marketing events & sponsorship activation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="work-content odd">
+            <img src="./assets/workcontent_3.1.png" alt="" onclick="openImage(2)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Social Media <br>Management</h1>
+                    <p class="space-p">Did you know that 60.4% of Indonesia's total population are active social media
+                        users?
+                    </p>
+                    <p>To help you reach your target audience and engage them, our team plans, schedules, produces &
+                        posts
+                        engaging contents on Instagram, TikTok, Facebook, and Twitter.</p>
+                </div>
+            </div>
+        </div>
+        <div class="work-content even">
+            <img src="./assets/workcontent_4.1.png" alt="" onclick="openImage(3)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Influencer & KOL Management</h1>
+                    <p class="space-p">Have you heard that
+                        influencer marketing is the future of marketing?
+                    </p>
+                    <p>From influencer management to content creation, we help
+                        you connect with the right influencers and KOL's for your marketing campaign.</p>
+                </div>
+            </div>
+        </div>
+        <div class="work-content odd">
+            <img src="./assets/workcontent_5.1.png" alt="" onclick="openImage(4)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Photo & Video <br>Production</h1>
+                    <p class="space-p">A picture is worth 60.000 words. Why? Because human brains process visual
+                        60.000
+                        times faster than text.
+                    </p>
+                    <p>Get your message across with outstanding visuals that separate your brand from its
+                        competitors!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="work-content even">
+            <img src="./assets/workcontent_6.1.png" alt="" onclick="openImage(5)">
+            <div class="work-content-desc">
+                <div class="desc">
+                    <h1>Website Design & Development</h1>
+                    <p class="space-p">A website is your most devoted employee. It promotes your
+                        business 24/7.
+                    </p>
+                    <p>From UI/UX design to SEO optimization, we help you craft
+                        a website that prioritizes user experience and is consistent
+                        with your brand identity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="main-bg" id="bgfooter"></div>
+
+        <img id="wave-svg" src="./assets/mmforgoodsvg_4.svg" alt="">
+        <img draggable="false" id="footer-circle" src="./assets/footer-circle.png" alt="">
+        <div id="footer-top">
+            <h1>Let's collaborate!</h1>
+            <div id="footer-top-right">
+                <div class="footer-top-right">
+                    <h4>Navigate</h4>
+                    <a href="./index.html">About Us</a>
+                    <a href="./works.html">Works</a>
+                    <a href="./contactus.html">Contact</a>
+                    <a href="./mmforgood.html">#MMForGoods</a>
+
+                </div>
+                <div class="footer-top-right">
+                    <h4>Social Media</h4>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=6281908678811&text=Halo%20MarkMind.%20Boleh%20bertanya%20mengenai%20layanan">Whatsapp</a>
+                    <a href="https://www.linkedin.com/company/markmindindonesia/">Linkedin</a>
+                    <a href="https://www.instagram.com/markmind.id/">Instagram</a>
+                    <a href="https://www.tiktok.com/@markmind.id">Tiktok</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="linebreak"></div>
+        <br>
+        <div id="footer-bot">
+            <img src="assets/footer-title.png" alt="">
+            <h3>Jl. Diamond 1 No.102, RW.3, Srengseng,<br>Kec. Kembangan, Kota Jakarta Barat, 11630</h3>
+            <p>©️ 2023 Markmind. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/works.js"></script>
+</body>
+
+</html>
