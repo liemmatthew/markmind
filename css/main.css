@@ -391,7 +391,8 @@ body {
 
         background: rgba(217, 217, 217, 0.3);
         box-shadow: -5px 3px 15px rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(8px) !important;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
 
         animation-timing-function: ease-in-out;
         animation-duration: 0.5s;
