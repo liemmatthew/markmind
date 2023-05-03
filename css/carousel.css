@@ -46,14 +46,15 @@
     width: calc(250px * 30);
 }
 
-.slider .slide-track:hover {
+/* for further notice */
+/* .slider .slide-track:hover {
     animation-play-state: paused;
 }
 
 .slide img:hover {
     width: 275px;
     transform: translate(-40px, -40px);
-}
+} */
 
 .slider .slide {
     height: 200px;

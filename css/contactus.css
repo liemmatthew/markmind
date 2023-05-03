@@ -128,6 +128,7 @@ element.style {
         flex-direction: column;
         align-items: center;
         color: #2A2A86;
+        margin: 0 0 100px 0;
     }
 
     .form {
@@ -208,6 +209,10 @@ element.style {
     .background {
         height: fit-content;
     }
+
+    #footer {
+        margin-top: 150px;
+    }
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -243,6 +248,7 @@ element.style {
         flex-direction: column;
         align-items: center;
         color: white;
+        margin: 0 0 30px 0;
     }
 
     .container-1-forms {
@@ -309,10 +315,6 @@ element.style {
         width: 100%
     }
 
-    #footer-bot {
-        height: 50px
-    }
-
     .background {
         height: 858px;
     }
@@ -323,5 +325,9 @@ element.style {
 
     .blnkspace {
         min-height: 139px;
+    }
+
+    #footer {
+        padding-top: 30px;
     }
 }
