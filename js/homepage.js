@@ -105,6 +105,10 @@ function changeWorksImage(direction) {
   }, 200);
 }
 
+setInterval(() => {
+  changeWorksImage("next");
+}, 5000);
+
 worksPrevBtn.addEventListener("click", () => {
   changeWorksImage("previous");
 });

@@ -30,7 +30,7 @@ var imageSource = [
   [
     "./assets/workcontent_5.1.png",
     "./assets/workcontent_5.2.png",
-    "./assets/workcontent_5.3.png",
+    // "./assets/workcontent_5.3.png",
     "./assets/workcontent_5.4.png",
     "./assets/workcontent_5.5.png",
     "./assets/workcontent_5.6.png",
@@ -66,4 +66,12 @@ function closeImage() {
   document.getElementsByClassName("container-2-detail")[0].style.display =
     "none";
   document.body.style.overflowY = "auto";
+}
+
+window.onload = function () {
+  document.onkeyup = key_event;
+};
+
+function key_event(e) {
+  if (e.keyCode == 27) closeImage();
 }

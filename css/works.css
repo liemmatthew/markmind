@@ -21,6 +21,14 @@ body {
     transition: opacity 0.5s ease-in-out;
 }
 
+.work-image {
+    position: relative;
+}
+
+.work-image .v-btn {
+    display: none;
+}
+
 .fade-out {
     opacity: 0;
 }
@@ -144,10 +152,27 @@ body {
         display: flex;
         justify-content: space-between;
         margin: 70px 0;
+        position: relative
     }
 
     .work-content img {
         width: 48%;
+    }
+
+    .work-image {
+        width: 52.5%;
+    }
+
+    .work-image img {
+        width: 100%;
+    }
+
+    .work-image .v-btn {
+        display: block;
+        position: absolute;
+        width: 25px;
+        top: 14vw;
+        right: 20px;
     }
 
     .work-content-desc {
