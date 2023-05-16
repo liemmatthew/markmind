@@ -18,7 +18,6 @@ const nextBtn = document.getElementById("next-btn");
 let currentIndex = 1;
 
 function shiftCards(direction) {
-  console.log(currentIndex);
   if (direction === "previous") {
     if (currentIndex === 0) {
       currentIndex = 5;
@@ -82,14 +81,16 @@ let worksImageIndex = 0;
 
 function changeWorksImage(direction) {
   var imageSource = [
-    "./assets/workcontent_3.1.png",
+    "./assets/workcontent_1.1.png",
     "./assets/workcontent_2.1.png",
+    "./assets/workcontent_3.1.png",
+    "./assets/workcontent_6.1.png",
+    "./assets/workcontent_4.1.png",
     "./assets/workcontent_5.1.png",
   ];
   var image = document.getElementById("works-img");
   image.classList.add("hide");
   setTimeout(function () {
-    console.log(worksImageIndex);
     if (direction == "previous") {
       worksImageIndex--;
     } else {
@@ -99,7 +100,6 @@ function changeWorksImage(direction) {
     if (worksImageIndex < 0) {
       worksImageIndex = imageSource.length - 1;
     }
-    console.log("Test" + imageSource[worksImageIndex]);
     image.src = imageSource[worksImageIndex];
     image.classList.remove("hide");
   }, 200);
