@@ -12,6 +12,15 @@
 
 <body>
     <div class="blnk-space"></div>
+    <div id="submit-modal">
+        <div id="modal-content">
+            <img src="assets/form-submit-check.svg" alt="" id="submitChecked">
+            <span>Thank you, we received
+                your form submission!</span>
+            <a href="./index.html"><input type="submit" value="OK" id="submitBtn"></a>
+
+        </div>
+    </div>
     <div class="d-flex justify-content-center">
         <div class="d-flex w-70 flex-column archivo">
             <h1 class="fw-700">Lengkapi form di bawah ini</h1>
@@ -82,6 +91,11 @@
         </div>
     </div>
     <script>
+        function openModal() {
+            console.log("TEST")
+            document.getElementById("submit-modal").style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }
         function submitForm() {
             var form = document.querySelector('form');
             var formData = new FormData(form);
@@ -98,13 +112,13 @@
             var xhr = new XMLHttpRequest();
 
             // Configure the request
-            xhr.open('POST', 'https://script.google.com/macros/s/AKfycbzmcNTXRnUB3MKPvqv9vJIEcJTqLWygMvoXGk9YPOGSbDFRn1gq0MpIkpoAH3IysNaMWA/exec');
+            xhr.open('POST', 'https://script.google.com/macros/s/AKfycbx-QAsyk6IzEcvlFKmz7xCwvOU6hmQZ6N4a_hzKLNbR2O_w9jCyZsfAWC4Cls46PuiJ/exec');
 
             // Define the callback function
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     // Redirect to markmind.id if the form submission is successful
-                    window.location.href = 'https://www.markmind.id';
+                    openModal();
                 } else {
                     // Handle error case
                     console.error('Form submission failed.');
